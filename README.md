@@ -1,43 +1,40 @@
-# mixedMessages
-Mixed Messages Codecademy portfolio project.
+# Aliens Quote Generator
+Ever stuck for a quote from the greatest sci-fi action movie of all time? Don't worry, with the Aliens Quote Generator you'll have all the one liners you'll ever need.
 
-# What is Markdown?
+## Table of Contents
+* [General Information](#general-information)
+* [Technologies Used](#technologies-used)
+* [Features](#features)
+* [Setup](#setup)
+* [Project Status](#project-status)
+* [Room For Improvement](#room-for-improvement)
+* [Acknowledgements](#acknowledgements)
+* [Contact Me](#contact-me)
 
-**Ordered List of tips**
+## General Information
+The Aliens Quote Generator will ask the user to input a number (from one to three) and provide them with that many quotes from the infinitely quotable movie. A vital tool for anybody looking to expand their movie knowledge, quipping powers, general wellbeing or look cool infront of others.
 
-1. **Two asterisks emphasize**
-2. *One asterisk Italicizes*
-3. One to six hash tags make headings.
-4. ~The tidla key strikes though text.~
-5. >Right angles bracket can be used to quote text.
+## Technologies Used
+* JavaScript 
+* Node.js 14.17.5
 
-**Unordered List of tips**
+## Setup
+* Install Node.js
+* Launch Aliens Quote Generator within Node, Bash, Powershell, Command Line etc.
+* Follow the prompt on screen to generate quotes.
 
-* **Two asterisks emphasize**
-* *One asterisk Italicizes*
-* One to six hash tags make headings.
-* ~The tidla key strikes though text.~
-5. >Right angles bracket can be used to quote text.
+## Project Status
 
-Hyphens can be used to underline text.
+In progress
 
---------------------------------------
+## Room for Improvement
 
-# Writing a Good README
+* A UI to avoid using command line.
+* Sound files to play along with generated quotes.
+* Mobile version - Aliens quotes on the go!
 
-Make sure the file **always includes** the following elements:
+## Acknowledgements
 
-* Titles and internal titles
-* Introduction - the projects aim
-* Technologies (inc. version numbers)
-* Launch
+Shout out to James Cameron for making a bloody good movie.
 
-Consider also using additional elements such as:
-
-* Table of contents - link using [What is Markdown](#what-is-markdown)
-* Illustrations - add image/logo files to repo link using ![Algorithm schema](./images/schema.jpg)
-* Scope of functionalities
-* Examples of use
-* Project status
-* Sources
-* Other information
+## Contact Me
