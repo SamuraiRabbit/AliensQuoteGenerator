@@ -10,7 +10,7 @@ Ever stuck for a quote from the greatest sci-fi action movie of all time? Don't 
 * [Acknowledgements](#acknowledgements)
 
 ## General Information
-The Aliens Quote Generator will ask the user to input a number (from one to three) and provide them with that many quotes from the infinitely quotable movie. A vital tool for anybody looking to expand their movie knowledge, quipping powers, general wellbeing or look cool infront of others.
+The Aliens Quote Generator will ask the user to input a number (from one to three) and provide them with that many quotes from the infinitely quotable movie. A vital tool for anybody looking to expand their movie knowledge, quipping power, general wellbeing or to look cool infront of others.
 
 ## Technologies Used
 * JavaScript ![JavaScript](./images/javascript.png)
@@ -19,7 +19,7 @@ The Aliens Quote Generator will ask the user to input a number (from one to thre
 ## Setup
 * Install Node.js
 * Using Powershell, Bash or Command Line etc. navigate to the directory you've saved main.js
-* Launch main.js using the command: ~node main.js~
+* Launch main.js using the command: node main.js
 * Follow the prompt on screen to generate quotes.
 
 ## Project Status
