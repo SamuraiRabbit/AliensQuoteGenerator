@@ -32,25 +32,13 @@ const hicksQuote3 = `"I like to keep this handy... for close encounters." - Corp
 //#endregion quotes
 
 const aliensQuotes = [hudsonQuote1, hudsonQuote2, hudsonQuote3, hudsonQuote4, hudsonQuote5, hudsonQuote6, aponeQuote1, aponeQuote2, aponeQuote3, ripleyQuote1, ripleyQuote2, ripleyQuote3, ripleyQuote4, ripleyQuote5, newtQuote1, drakeQuote1, drakeQuote2, bishopQuote1, bishopQuote2, vasquezQuote1, vasquezQuote2, vasquezQuote3, frostQuote1, frostQuote2, hicksQuote1, hicksQuote2, hicksQuote3];
-const quotePrompt = "You can request upto three quotes. How many would you like? (Please use numbers only.)"
+const quotePrompt = `How many would you like? 1, 2 or 3? Press "e" to exit.`
 let input = "";
 
 // Function: requests user input.
 const inputRequest = () => {
     input = prompt(quotePrompt);
-}
-
-// Function: loop through alienQuotes and return a random quote.
-const generateQuotes = () => { 
-    const randomQuote = aliensQuotes[Math.floor(Math.random() * aliensQuotes.length)];
-    return console.log(randomQuote);
-}
-
-// Prints lines to console requesting input.
-console.log("Welcome to the Aliens Quote Generator.");
-inputRequest();
-
-// Runs generateQuotes depending on user input.
+    
 switch(input) {
     case "1":
         generateQuotes();
@@ -67,13 +55,24 @@ switch(input) {
         generateQuotes();
         inputRequest();
         break;
+    case "e":
+        exitProgram();
     default:
-        console.log(`Error. Please restart the program and enter "1", "2" or "3".`);
+        console.log(`Error. Please restart the program and enter "1", "2" or "3". Or press "e" to exit.`);
+        inputRequest();
+}
 }
 
+// Function: loop through alienQuotes and return a random quote.
+const generateQuotes = () => { 
+    const randomQuote = aliensQuotes[Math.floor(Math.random() * aliensQuotes.length)];
+    return console.log(randomQuote);
+}
 
-/* TO DO:
-    * Loop app.
-    * Provide option to quit.
-    * Add option for word input?
-*/
+const exitProgram = () => {
+    process.exit();
+}
+
+// Prints lines to console requesting input.
+console.log("Welcome to the Aliens Quote Generator.");
+inputRequest();
