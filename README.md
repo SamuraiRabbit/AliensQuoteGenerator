@@ -25,7 +25,11 @@ The Aliens Quote Generator will ask the user to input a number (from one to thre
 
 ## Project Status
 
-In progress
+### WIP
+
+### Known Issues
+
+* Error when requesting quotes after the first instance - Need to loop app and have option to exit. 
 
 ## Room for Improvement
 
